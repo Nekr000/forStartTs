@@ -10,14 +10,16 @@ function App() {
             <input/>
             <input type="password" />
             <Rating value={3} />
-            <Accordion title={"Меню"} value={1} value2={2} value3={3}/>
+            <Accordion titleValue={"Меню"} collapsed={false} />
             <Rating value={4} />
 
         </div>
     );
 }
-
-function Pagetitle(props:any) {
+type PageTitlePropsType = {
+    title: string
+}
+function Pagetitle(props:PageTitlePropsType) {
     return <h1>{props.title}</h1>
 }
 
