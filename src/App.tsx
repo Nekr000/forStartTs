@@ -15,6 +15,20 @@ function App() {
         </div>
     );
 }
+function App() {
+    return (
+        <div>
+            <Accordion/>
+            <Star />
+            <Star />
+            <Star />
+            <Star />
+            <Star />
+
+        </div>
+    );
+}
+
 
 
 function Star() {
