@@ -1,9 +1,10 @@
 import React from 'react';
 import mainContentBanner from "../main-content-banner.jpg";
+import classes from "./Profile.module.css";
 
 const Profile = () => {
     return (
-        <div className='content'>
+        <div className= {`${classes.content}`}>
 
             <div>
                 <img src={mainContentBanner}/>
@@ -13,16 +14,16 @@ const Profile = () => {
                 ava+description
             </div>
 
-            <div>
+            <div className={`${classes.post}`}>
                 My posts
                 <div>
                     New post
                 </div>
                 <div>
-                    <div>
+                    <div className={`${classes.item}`}>
                         post 1
                     </div>
-                    <div>
+                    <div className={`${classes.item}`}>
                         post 2
                     </div>
                 </div>

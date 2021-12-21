@@ -1,10 +1,10 @@
 import React from 'react';
 import banner from "../banner.jpg";
-
+import classes from "./Header.module.css";
 
 const Header = () => {
     return (
-    <header className='header'>
+    <header className= {`${classes.header}`}>
         <img src={banner}/>
     </header> )
 }
