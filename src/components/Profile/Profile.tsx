@@ -1,6 +1,7 @@
 import React from 'react';
 import mainContentBanner from "./main-content-banner.jpg";
 import classes from "./Profile.module.css";
+import MyPosts from "./Myposts/MyPosts";
 
 const Profile = () => {
     return (
@@ -14,7 +15,7 @@ const Profile = () => {
         <div>
             ava+description
         </div>
-
+        <MyPosts/>
     </div>
 
     )
