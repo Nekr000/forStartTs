@@ -1,5 +1,5 @@
 import React from 'react';
-import banner from "../banner.jpg";
+import banner from "../../banner.jpg";
 import classes from "./Header.module.css";
 
 const Header = () => {
