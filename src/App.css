@@ -6,6 +6,7 @@
     grid-template-areas:
     "h h"
     "n c"
+    "x b"
     "x b";
 
     grid-template-rows: 60px 1fr;

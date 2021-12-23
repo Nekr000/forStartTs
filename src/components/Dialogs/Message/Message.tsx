@@ -1,4 +1,4 @@
-import Style from "./Dialogs.module.css";
+import Style from "../Dialogs.module.css";
 import React from "react";
 
 
